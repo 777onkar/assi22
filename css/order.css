@@ -1,0 +1,104 @@
+.page{
+    background-color: antiquewhite;
+}
+
+
+
+
+
+.section{
+    text-align: center;
+}
+
+
+.order-icon{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.order-card{
+    border-style:  20px solid;
+    border: 10px 10px 10px 10px;
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    padding-left: 20px;
+    padding-top: 10px;
+    flex: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    display: flex;
+    transition: all ease-in-out 0.5s;
+
+
+}
+
+.order-card:hover{
+    background-color: lightgray;
+    transition: background-color 0.3s;
+    transition: 0.3s;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    width: 25;
+    align-items: center;
+    transition: 0.3s;
+    flex-direction: column;
+}
+
+.text-1{
+    font-size: 16px;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.fnt{
+    font-size: 14px;
+    color: darkgray;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.order-price{
+    font-family: cursive;
+    color: darkblue;
+    text-align: center;
+    border-style:20px solid;
+    cursor: pointer
+    
+ }
+
+ .order-price:hover{
+    color: green;
+    transition: color 0.3s;
+    border-radius: 25px;
+ }
+
+.order-container{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+
+}
+
+.order-price{
+    font-family: cursive;
+    color: darkblue;
+    text-align: center;
+
+
+ }
+
+ .order-price:hover{
+    color: green;
+    transition: color 0.3s;
+    
+
+ }

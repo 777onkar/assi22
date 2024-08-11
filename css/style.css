@@ -1,0 +1,96 @@
+.heading{
+    background-color: antiquewhite;
+}
+
+.heading-2{
+    color: black;
+    font-size: 18px;
+    font-family: cursive;
+    padding: 20px;
+    text-align: center;
+    height: ;
+}
+ 
+.cafe{
+    background-color: lightblue;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius:  25px;
+}
+
+.main-image{     
+    width: 600px;
+    height: 400px;
+    margin-left: 50px;
+    border-style: 20px double;
+    box-shadow: yellowgreen;
+}
+
+.content{
+    padding: 20px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive
+}
+
+.text{
+    color: darkblue;
+    font-size: 20px;
+    font-family: cursive;
+    line-height: 1.5;
+}
+
+.text-2{
+    color: darkblue;
+    font-size: 18px;
+    font-family: cursive;
+    line-height: 1.5;
+}
+
+.hand{
+    color: green;
+    font-size: 18px;
+    font-family: cursive;
+    line-height: 28px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding-left: 20px;
+
+}
+
+.card-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+ }
+
+ .card-img:hover{
+    transition: transform 0.3s;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+
+   
+
+ .card-text{
+    color: darkblue;
+ }
+
+    font-size: 18px;
+    font-family: cursive;
+    line-height: 1.5;
+ }
+
+.order{
+    text-align:center;
+}
+    
