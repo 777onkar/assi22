@@ -2,10 +2,6 @@
     background-color: antiquewhite;
 }
 
-
-
-
-
 .section{
     text-align: center;
 }
@@ -33,8 +29,6 @@
     margin-bottom: 20px;
     display: flex;
     transition: all ease-in-out 0.5s;
-
-
 }
 
 .order-card:hover{
@@ -92,13 +86,9 @@
     font-family: cursive;
     color: darkblue;
     text-align: center;
-
-
  }
 
  .order-price:hover{
     color: green;
     transition: color 0.3s;
-    
-
  }
