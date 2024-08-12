@@ -2,7 +2,7 @@
     background-color: antiquewhite;
 }
 
-.section{
+.Section{
     text-align: center;
 }
 
@@ -74,13 +74,13 @@
     border-radius: 25px;
  }
 
-.order-container{
+ .order-container{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap; 
-    flex-direction:row;
-
-}
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+ }
 
 .order-price{
     font-family: cursive;
